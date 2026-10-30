@@ -18,6 +18,7 @@
 - [本科核心书目](#本科核心书目)
 - [方向选择](#方向选择)
 - [硕博阶段](#硕博阶段)
+- [网课与课程组合](#网课与课程组合)
 - [自学进度表](#自学进度表)
 - [开放资源](#开放资源)
 - [贡献与版权](#贡献与版权)
@@ -190,6 +191,22 @@ Stanford 的本科培养以**方法训练、领域交叉与研究实践**为主�
 - **[博士专题与经典论文](docs/phd-seminars.md)**：按研究问题组织经典争论、模型与论文。
 - **[研究实践与项目](docs/research-practice.md)**：复现、开放科学、研究计划、博士阶段自检。
 - **[来源与链接状态](docs/sources.md)**：培养结构的出处、资源选择原则与链接维护。
+
+## 网课与课程组合
+
+**[完整课程地图 →](docs/courses.md)**：27 组网课与公开课程，逐项列出先修、视频/讲义形式、配套教材、作业建议和自学周数。
+
+| 想学什么 | 推荐起点 |
+|---|---|
+| 编程与数学 | CS50P / MIT 6.0001、Missing Semester、MIT 18.06、Harvard Stat 110 |
+| 哲学与逻辑 | Yale PHIL 181、Stanford Introduction to Logic、MIT 6.042J |
+| 心理与语言 | MIT 9.00SC、MIT 24.900 |
+| AI 与 NLP | CS221、ISLP/ISLR、MIT 6.S191、CS224N |
+| 认知与神经 | Washington Computational Neuroscience、MIT 9.40、Neuromatch、ProbMods |
+| 决策与交互 | Game Theory、Model Thinking、CS147 |
+| 研究生方法 | EE364A、Brady Neal 因果课、CS228 公开笔记、RSA 教程 |
+
+课程地图还提供四套组合：**零基础 16 周、语言与认知、计算认知与神经、AI 与因果研究准备**，可以按周次直接安排学习。
 
 ## 自学进度表
 
