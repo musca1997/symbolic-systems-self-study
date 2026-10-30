@@ -1,50 +1,46 @@
-# 来源、编辑原则与核验说明
+# 来源与维护
 
 [← 首页](../README.md)
 
-## 官方事实的来源
+## 培养结构的出处
 
-查阅日期：**2026-10-30**。仅下列关于培养结构的陈述来自官方页面；自学安排与书目是编辑判断。
+查阅日期：**2026-10-30**。
 
-| 来源 | 本仓库据此采用的事实 |
+本指南独立编写：本科结构参考 Stanford Symbolic Systems 官网，书目、学习安排和硕博专题由编者整理。
+
+| 来源 | 参考内容 |
 |---|---|
-| [Core Requirements](https://symsys.stanford.edu/undergraduates/major-policies-requirements/core-requirements) | Preparations、四类 Breadth、Cross-Area、Advanced Small Seminar、Capstone 及展示要求；页面标注 G4.3 |
-| [Concentrations](https://symsys.stanford.edu/undergraduates/concentrations) | 方向名称；具体选课要求需进入各方向页面核对 |
-| [Master's Program](https://symsys.stanford.edu/graduates/masters-program) | 研究型硕士定位、语言/信息/智能、跨至少两个相关学科 |
+| [Core Requirements](https://symsys.stanford.edu/undergraduates/major-policies-requirements/core-requirements) | Preparations、四类 Breadth、Cross-Area、Advanced Small Seminar、Capstone 与展示要求；页面版本为 G4.3 |
+| [Concentrations](https://symsys.stanford.edu/undergraduates/concentrations) | 方向名称与分类；具体选课规则见各方向页面 |
+| [Master's Program](https://symsys.stanford.edu/graduates/masters-program) | 研究型硕士定位，以及语言、信息、智能和跨学科研究主题 |
 
-Core 与 Master's Program 页面在整理时成功获取正文；方向名称亦见官网本科导航。本仓库未逐一重建每个方向、每种入学年份的学位审查规则，也不把硕士官网简介扩展解读为博士培养方案。
+正式选课与学位规划请查阅对应年份的 Stanford Bulletin。博士部分按相关学科的共同研究问题设计，适合专题阅读与读书会使用。
 
-## 非官方部分
+## 选书原则
 
-- 主线与选读的选择、阅读顺序、先修判断。
-- 本科/研究生/博士层次划分；实际课程难度因学校与学生背景而异。
-- 学习时长、能力标准、项目方案及博士专题。
-- 一本书在清单中不代表 Stanford 官方曾将其列为指定教材。
+1. 优先作者、大学、出版社、原始论文与开放出版平台。
+2. 每个模块设置主线与进阶，说明先修、阅读重点与建议产物。
+3. 付费书提供书介或图书目录入口，方便购买与图书馆借阅。
+4. 开放资源标注全文、课程或预印本，引用时记录版本。
+5. 经典与近期研究结合阅读，同时关注竞争解释、批评与负结果。
 
-## 资源选择原则
+## 链接维护
 
-1. 优先作者、大学、出版社、原始论文与正规开放出版平台。
-2. 付费书保留书介或图书目录检索入口，不提供盗版下载。
-3. “全文”表示合法可读入口，不等于 CC 授权或可重新上传。
-4. 课程主页可能按学期更新；草稿与预印本引用须注明版本。
-5. 经典文献用于理解问题史；当前研究仍需补近年论文与反例。
-6. 对同一问题保留竞争立场，不把某一研究纲领当作无争议共识。
-
-## 链接检查
-
-提供 `scripts/check_links.py`，只依赖 Python 3 与 curl：
+仓库提供 `scripts/check_links.py`，依赖 Python 3 与 curl：
 
 ```bash
 python scripts/check_links.py --local-only
 python scripts/check_links.py > link-check.tsv
 ```
 
-首次 HTTP 探测后修正了一处 HCI 资源地址和 DOI 中括号的 URL 编码问题。本地文件链接在交付前单独检查。
+首轮检查修正了 HCI 资源地址与一处 DOI 编码，本地文件链接检查通过。部分外链遇到超时、403 或传输错误，主要涉及 WorldCat、出版社、部分 DOI 和大学网站；这些链接留待后续复查。
 
-**已知限制：**部分站点（包括 WorldCat、出版社、部分 DOI、Harvard、Columbia 等）出现超时、403 或传输错误；不能据此判定资源不存在，也不能声称全站链接已通过验证。HTTP 200 也不证明标题、版次或正文完整正确，自动检测不替代内容审查。
+访问遇到问题时，可按作者与完整标题到图书馆、出版社或作者主页查找。欢迎提交 Issue，附上链接、错误信息和查阅日期。
 
-若遇访问问题：优先按作者与完整标题在图书馆、出版社、作者主页或正规开放仓储检索；不要绕过付费墙或使用侵权镜像。提 Issue 时请附链接、错误与查阅日期，不上传受限全文。
+## 后续扩充
 
-## 维护范围
+当前重点是逻辑、AI、认知、语言、神经科学与社会技术研究。生物医学、计算机音乐等方向已列入导航，欢迎补充专业书目与课程。
 
-本指南偏向心智、语言与计算的共同方法基础，较深入覆盖逻辑、AI、认知、语言、神经与社会技术问题。生物医学、计算机音乐等专门方向仅作导航，尚不提供完整领域训练。
+## 授权
+
+原创文字采用 [CC BY 4.0](../LICENSE)；外链书籍、论文、课程与数据遵循各自的版权和使用条款。

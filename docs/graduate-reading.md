@@ -2,13 +2,13 @@
 
 [← 返回首页](../README.md) · [博士研讨](phd-seminars.md) · [研究实践](research-practice.md)
 
-> 以下均为编辑推荐，不是 Stanford M.S. 指定书目。研究生阶段建议选 **1 个研究主题 + 2 种方法**，不是横扫全部书单。每条线先读主线，再按问题补高级材料。
+> 研究生阶段建议围绕 **1 个研究主题 + 2 种方法**展开。各模块先读主线，再按问题补充高级材料。
 >
-> 标签：**全文**为合法免费可读版本；**书介/检索**通常需借阅或购买；课程不等于教材全文开放。
+> 访问标签：**全文**可免费阅读；**书介/检索**可用于购买或图书馆借阅；**课程**提供讲义、视频与练习。
 
 ## 1. 概率、贝叶斯与统计推断
 
-**先修：**多变量微积分、线性代数、本科概率；测度论用于更严格的理论研究，不是所有应用的入场券。
+**先修：**多变量微积分、线性代数、本科概率；理论研究可进一步补充测度论。
 
 | 层级 | 文献与访问 | 阅读重点 |
 |---|---|---|
@@ -34,7 +34,7 @@
 
 ## 3. 因果推断与研究设计
 
-**先修：**概率、回归、实验设计；不能把因果图当成自动得出因果结论的工具。
+**先修：**概率、回归、实验设计；重点理解因果图背后的识别假设。
 
 | 层级 | 文献与访问 | 阅读重点 |
 |---|---|---|
@@ -53,9 +53,9 @@
 |---|---|---|
 | 主线 | David J. C. MacKay, *Information Theory, Inference, and Learning Algorithms* (2003) [全文](https://www.inference.org.uk/mackay/itila/) | 信息、编码、推断与学习之间的联系 |
 | 进阶 | Cover & Thomas, *Elements of Information Theory*, 2nd ed. (2006) [书目检索](https://search.worldcat.org/search?q=Cover+Thomas+Elements+of+Information+Theory) | 熵、互信息、信道容量、率失真 |
-| 研究 | Tishby, Pereira & Bialek (1999), *The Information Bottleneck Method* [预印本](https://arxiv.org/abs/physics/0004057) | 压缩与相关性；注意互信息估计与表征解释的边界 |
+| 研究 | Tishby, Pereira & Bialek (1999), *The Information Bottleneck Method* [预印本](https://arxiv.org/abs/physics/0004057) | 压缩、相关性、互信息估计与表征分析 |
 
-**输出：**推导一个率失真或信息瓶颈目标，并解释为什么“压缩得好”不自动等于“有语义理解”。
+**输出：**推导一个率失真或信息瓶颈目标，并讨论压缩目标与语义表征之间的关系。
 
 ## 5. 计算认知与理性分析
 
@@ -65,21 +65,21 @@
 |---|---|---|
 | 主线 | Farrell & Lewandowsky, *Computational Modeling of Cognition and Behavior* (2018) [书目检索](https://search.worldcat.org/search?q=Farrell+Lewandowsky+Computational+Modeling+of+Cognition+and+Behavior) | 模型拟合、比较、参数恢复与行为解释 |
 | 主线 | Goodman & Tenenbaum 等, *Probabilistic Models of Cognition* [在线书](https://probmods.org/) | 概率程序、概念学习、推理与语言 |
-| 经典 | David Marr, *Vision* (1982) [书目检索](https://search.worldcat.org/search?q=David+Marr+Vision) | 计算层、算法/表征层与实现层；不是三门独立学科的简单对应 |
+| 经典 | David Marr, *Vision* (1982) [书目检索](https://search.worldcat.org/search?q=David+Marr+Vision) | 计算层、算法/表征层与实现层，以及三层之间的联系 |
 | 进阶 | Anderson, *The Adaptive Character of Thought* (1990) [书目检索](https://search.worldcat.org/search?q=Anderson+Adaptive+Character+of+Thought) | 理性分析与适应性解释 |
 
 **输出：**比较规则模型、贝叶斯模型、神经模型对同一任务的预测；使用参数恢复与模型恢复检验可区分性。
 
 ## 6. 理论与计算神经科学
 
-**先修：**微分方程、线性代数、概率与神经生物学；不要直接跳进自由能公式。
+**先修：**微分方程、线性代数、概率与神经生物学；掌握这些基础后可继续阅读预测加工与主动推断。
 
 | 层级 | 文献与访问 | 阅读重点 |
 |---|---|---|
 | 主线 | Gerstner 等, *Neuronal Dynamics* (2014) [全文](https://neuronaldynamics.epfl.ch/) | 神经元模型、脉冲、编码与网络动力学 |
-| 主线 | Dayan & Abbott, *Theoretical Neuroscience* (2001) [作者资源](https://www.gatsby.ucl.ac.uk/~dayan/book/) | 神经编码、解码、学习与强化学习；资源页不保证全书开放 |
+| 主线 | Dayan & Abbott, *Theoretical Neuroscience* (2001) [作者资源](https://www.gatsby.ucl.ac.uk/~dayan/book/) | 神经编码、解码、学习与强化学习；配套材料见作者资源页 |
 | 课程 | [Neuromatch Computational Neuroscience](https://compneuro.neuromatch.io/) | 从数据与代码进入计算神经科学 |
-| 进阶 | Richard Sutton & Andrew Barto, *Reinforcement Learning: An Introduction*, 2nd ed. (2018) [作者主页/全文](http://incompleteideas.net/book/the-book-2nd.html) | 贝尔曼方程、TD、价值与策略；算法模型不等于生物机制证据 |
+| 进阶 | Richard Sutton & Andrew Barto, *Reinforcement Learning: An Introduction*, 2nd ed. (2018) [作者主页/全文](http://incompleteideas.net/book/the-book-2nd.html) | 贝尔曼方程、TD、价值与策略，以及它们在神经科学中的应用 |
 
 **输出：**实现神经元或群体编码模型，评价参数、观测噪声与神经机制解释之间的关系。
 
@@ -91,7 +91,7 @@
 |---|---|---|
 | 主线 | Heim & Kratzer, *Semantics in Generative Grammar* (1998) [书目检索](https://search.worldcat.org/search?q=Heim+Kratzer+Semantics+in+Generative+Grammar) | 类型、组合性、lambda 演算与量化 |
 | 主线 | [The Rational Speech Act framework](https://www.problang.org/) [在线教程] | 把语用解释写成概率模型；网站标题与版本以原站为准 |
-| 开放补充 | [Language Science Press](https://langsci-press.org/) [开放学术出版] | 按研究问题找语义、语用与语言理论专著，不必整站通读 |
+| 开放补充 | [Language Science Press](https://langsci-press.org/) [开放学术出版] | 按研究问题选择语义、语用与语言理论专著 |
 | 进阶 | Jurafsky & Martin, *Speech and Language Processing* [全文草稿](https://web.stanford.edu/~jurafsky/slp3/) | 把形式语言分析与现代语言模型方法对照 |
 
 **输出：**对歧义或语用推断构建组合语义分析与概率模型；明确二者解释目标不同。
@@ -115,7 +115,7 @@
 
 | 层级 | 文献与访问 | 阅读重点 |
 |---|---|---|
-| 主线 | Martin J. Osborne, *An Introduction to Game Theory* (2004) [作者资源](https://www.economics.utoronto.ca/osborne/igt/) | 策略、均衡、动态与信息；资源页不保证整书开放 |
+| 主线 | Martin J. Osborne, *An Introduction to Game Theory* (2004) [作者资源](https://www.economics.utoronto.ca/osborne/igt/) | 策略、均衡、动态与信息；配套材料见作者资源页 |
 | 主线 | Mykel J. Kochenderfer, Tim A. Wheeler & Kyle H. Wray, *Algorithms for Decision Making* (2022) [全文](https://algorithmsbook.com/) | MDP、POMDP、规划与多智能体 |
 | 开放补充 | Shoham & Leyton-Brown, *Multiagent Systems* (2009) [全文](https://www.masfoundations.org/) | 博弈论、机制设计与计算视角 |
 | 社会系统 | Matthew J. Salganik, *Bit by Bit: Social Research in the Digital Age* (2018) [全文](https://www.bitbybitbook.com/) | 数字实验、观察数据、合作与研究伦理 |
@@ -142,4 +142,4 @@
 - [ ] 能实现至少一个模型并验证参数恢复或数值正确性。
 - [ ] 能区分经验结果、理论定理、规范主张和哲学论证。
 - [ ] 能对一个研究问题列出两种竞争解释及其判别证据。
-- [ ] 能写出 3–5 页研究提案，而不是只罗列想读的书。
+- [ ] 能写出 3–5 页研究提案，说明问题、相关工作和研究方法。
