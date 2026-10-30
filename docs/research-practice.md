@@ -1,5 +1,7 @@
 # 研究实践：从“看过”到“能够独立研究”
 
+**中文** | [English](en/research-practice.md)
+
 [← 首页](../README.md)
 
 ## 三个阶段的学习目标

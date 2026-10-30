@@ -1,5 +1,7 @@
 # 博士阶段：专题研讨与研究问题
 
+**中文** | [English](en/phd-seminars.md)
+
 [← 首页](../README.md) · [高级理论](graduate-reading.md) · [研究实践](research-practice.md)
 
 > 每次选一个专题，用 6–8 周完成：概念界定 → 经典争论 → 数学/模型 → 复现或论证 → 研究提案。以经典文献建立问题脉络，再沿引文补充近期研究。

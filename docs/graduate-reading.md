@@ -1,5 +1,7 @@
 # 研究生：高级理论阅读地图
 
+**中文** | [English](en/graduate-reading.md)
+
 [← 返回首页](../README.md) · [博士研讨](phd-seminars.md) · [研究实践](research-practice.md)
 
 > 研究生阶段建议围绕 **1 个研究主题 + 2 种方法**展开。各模块先读主线，再按问题补充高级材料。

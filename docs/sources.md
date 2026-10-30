@@ -1,5 +1,7 @@
 # 来源与维护
 
+**中文** | [English](en/sources.md)
+
 [← 首页](../README.md)
 
 ## 培养结构的出处

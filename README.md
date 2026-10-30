@@ -2,6 +2,8 @@
 
 ### 从心智、语言与计算，到跨学科研究
 
+**中文** | [English](README.en.md)
+
 [![Learning](https://img.shields.io/badge/learning-interdisciplinary-blue)](#培养结构与官方来源)
 [![Language](https://img.shields.io/badge/language-中文-red)](#目录)
 [![License: CC BY 4.0](https://img.shields.io/badge/content-CC_BY_4.0-lightgrey)](LICENSE)
